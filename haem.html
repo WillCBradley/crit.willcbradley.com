@@ -12,21 +12,71 @@
         <div class="sticky">
             <h1 class="title idea-title"><a href="./">&larr; crit.care</a></h1>
         </div>
-        <h2 class="idea-subtitle">Under Construction</h2>
+        <h2 class="idea-subtitle">Haemodynamics</h2>
 
-        <p>Welcome to crit.care!</p>
-        <p>Over the next few years, I plan to build a solid foundation of knowledge in critical care medicine.</p>
-        <p>This website will function as a library of the principles I find. If you're a med student or intern, you might find it helpful too.</p>
-        <p><a target="_blank" href="https://willcbradley.substack.com/subscribe?">Join the list</a> to be notified when the first full version goes live.</p>
-        <p>Any suggestions or requests, <a target="_blank" href="https://willcbradley.com/contact">let me know.</a></p>
-        <p> - Will</p>
+        <p class="jumpto">| Jump To Section:</p>
+        <ul>
+            <li class="jumplink"><a href="#coreparameters">Core Parameters</a></li>
+            <li class="jumplink"><a href="#heartfunction">Heart Function</a></li>
+            <li class="jumplink"><a href="#shock">Shock</a></li>
+            <li class="jumplink"><a href="#ischaemia">Ischaemia</a></li>
+        </ul>
+        <hr>
 
+        <h2 class="subheading" id="coreparameters">| Core Parameters</h2>
+        <p>Most of the time, we forget about our hearts.</p>
+        <p>They quietly pump blood 24/7, with no visible metrics to quantify.</p>
+        <p>But with some basic physics, we get a much clearer picture of the core components of blood flow (and hence haemodynamic stability). I have a feeling you’ll notice some strong similarities to <a href="./resp">respiratory physiology</a>:</p>
+        <ul>
+            <li>Cardiac Output (CO) — Amount of blood pumped by the heart per unit time, measured as heart rate (how often the heart beats per unit time) multiplied by stroke volume (how much blood is pumped per beat).</li>
+            <li>Mean Arterial Pressure (MAP) — Average arterial pressure per heartbeat cycle. Equal to two thirds of diastolic blood pressure (pressure when the ventricles are filling with blood), plus one third of systolic blood pressure (pressure when the ventricles are contracting).</li>
+            <li>Systemic Vascular Resistance (SVR) — Like airway resistance, this determines the pressure gradient required to produce a given flow rate (higher resistance = more pressure needed) in the peripheries. Proportional to MAP / CO.</li>
+        </ul>
+        <p>But upstream of these, several factors come into play.</p>
+
+        <br>    
+
+        <h2 class="subheading" id="heartfunction">| Heart Function</h2>
+        <p>The heart has a difficult job.</p>
+        <p>It has to pump blood through the right vessels, at the right time, with the right amount of force, in the right direction.</p>
+        <p>But despite this complexity, we can wrap our head around things by understanding a few key measurements:</p>
+         <ul>
+            <li>Preload — The amount of stretch applied to the ventricular wall right before contraction. Increasing preload will increase stroke volume up to a certain point, beyond which the muscle becomes over-stretched and less effective.</li>
+            <li>Afterload — The amount of ventricular wall tension required to overcome resistance and pump blood into circulation. This if influenced by SVR, but also includes factors like ventricular wall thickness and aortic compliance.<li>
+            <li>Contractility — The ability of the heart muscle (myocardium) to contract. Higher contractility leads to stronger contractions, and vice versa.</li>
+        </ul>
+        <p>With this in mind, we now understand the basis of a classic life-threatening condition:</p>
+        <br>
+        
+        <h2 class="subheading" id="shock">| Shock</h2>
+        <p>Shock occurs when not enough blood is being delivered around the body (including to vital organs).</p>
+        <p>It has four types: distributive, cardiogenic,  hypovolaemic, and obstructive.</p>
+        <p>They sound fancy, but we can break them down using the concepts we’ve just learned.</p>
+        <ul>
+            <li>Distributive shock is caused by systemic vasodilation (widening of blood vessels), causing a drop in SVR. When CO can’t increase enough to compensate, the result is a drop in BP. This reduces MAP, and can cause organ hypoperfusion and death.</li>
+            <li>Cardiogenic shock occurs when the heart can’t pump enough blood around the body. This is commonly caused by reduced contractility (such as severe heart failure), but factors such as increased afterload and arrythmias can also contribute.</li>
+            <li>Hypovolaemic shock means there isn’t enough blood to go around. It can be caused by factors like haemorrhage, dehydration, or third-spacing (where fluid accumulates in a place that it shouldn’t, such as the peritoneum or pleura). This leads to reduced preload, CO, and MAP.</li>
+            <li>Obstructive shock is similar to cardiogenic, except there’s a physical blockage preventing the heart from pumping blood through circulation (e.g. cardiac tamponade, tension pneumothorax, pulmonary embolism). The heart itself is working, but a drop in preload and/or increase in afterload leads to reduced CO and shock.</li>
+        </ul>
+        <p>Why does all this matter?</p>
+        <p>Because without blood flow, it doesn’t take long for things to go sideways:</p>
+
+        <br>
+
+        <h2 class="subheading" id="ischaemia">| Ischaemia</h2>
+        <p>We’ve covered the importance of <a href="./resus#oxygen">oxygen</a>.</p>
+        <p>So it makes sense that, without blood oxygenating tissues, they start to die.</p>
+        <p>This is called ischaemia. At a cellular level, it can lead to increased anaerobic metabolism (producing acidic byproducts that disturb <a href="./foundations#homeostasis">homeostasis</a>), cell death, and irreversible replacement of functional tissue with non-functional scar tissue.</p>
+        <p>Different organs can survive different lengths of time without perfusion.</p>
+        <p>But few are more sensitive to ischaemia than <a href="./neuro">the brain</a>.</p>
+        <br>
+        
         <div class="footer-grid">
                 <a href="./resp" class="back-arrow subscribe">←</a>
                 <a href="https://willcbradley.substack.com/about" target="_blank" class="contact-btn subscribe">More Ideas</a>
                 <a href="./neuro" class="forward-arrow subscribe">→</a>
         </div>
-        
+
         <p class="disclaimer"><a href="./disclaimer" target="_blank">Disclaimer</a></p>  
         
     </div>
