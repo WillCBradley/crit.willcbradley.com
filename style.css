@@ -58,6 +58,7 @@ li::before {
 li.jumplink {
     list-style-type: none;
     padding-left: 0;
+    margin-bottom: 0;
 }
 
 li.jumplink::before {
